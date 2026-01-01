@@ -23,6 +23,12 @@ Bu proje, 'LunarLanderContinuous-v3' ortamı için Proksimal Politika Optimizasy
 *   `logs/`: TensorBoard günlükleri için dizin.
 *   `videos/`: Simülasyon kayıtlarının kaydedildiği dizin.
 
+## Arayüz
+
+Projenin interaktif kontrol paneli (`app.py`), kullanıcıların simülasyon parametrelerini (yerçekimi, rüzgar, vb.) anlık olarak değiştirmesine ve ajanın tepkilerini gözlemlemesine olanak tanır.
+
+![Arayüz Örneği](arayuz_ornek.png)
+
 ## Kurulum
 
 1.  Depoyu klonlayın:
@@ -98,3 +104,7 @@ Bu komut, web tarayıcınızda şunları yapabileceğiniz bir sekme açacaktır:
 *   Yerçekimi, Rüzgar ve Türbülans kaydırıcılarını manuel olarak ayarlamak.
 *   Gerçek zamanlı ölçümleri (İrtifa, Hız, Motor Kullanımı) görüntülemek.
 *   Ajanın sizin belirlediğiniz özel koşullar altında iniş yapmaya çalışmasını izlemek.
+
+## Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakınız (eğer mevcutsa) veya açık kaynak standartlarını referans alınız.
