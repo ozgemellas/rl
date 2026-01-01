@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Project Logs
+logs/
+logs_extended/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large Assets and Outputs
+models/
+videos/
+proje_teslim/
+*.zip
+*.mp4
+*.png
+*.pdf
+*.jpg
+*.jpeg
+
